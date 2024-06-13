@@ -26,7 +26,7 @@ class Bot:
         elif self.state == ConversationState.ASKING_CUISINE_KIND:
             if message.lower() in ["anything", "healthy"]:
                 self.state = ConversationState.ASKING_CUISINE
-                return f"Got it! Here are some cuisines you might like:" + ", ".join(
+                return f"Got it! Here are some cuisines you might like: " + ", ".join(
                     self.get_cuisines(message.lower())
                 )
             else:
