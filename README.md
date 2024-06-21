@@ -12,3 +12,9 @@ To test chatting with the bot locally without going through LINE servers, run `m
 python main.py --local
 ```
 
+## Future Features
+
+- Link to Grab / LINE Man for ordering
+- More cuisines
+- Taking into account your location
+- Making use of LLM
