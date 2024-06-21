@@ -14,4 +14,8 @@
 
 ### 2. สร้าง Azure OpenAI Resource และเก็บ Keys and Endpoints
 
-### 3. 
+### 3. เขียน Python Code เพื่อเตรียมการ Deploy Flask Web App
+
+### 4. โฮส Website ผ่าน Azure App Service (นำมาใช้ต่อ Webhook)
+
+### 5. ทดสอบการทำงานของ #WhatToEatBot
